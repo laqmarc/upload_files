@@ -8,7 +8,7 @@
     <title>nuwe - drop zone</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png"/>
 </head>
 
 <body>
