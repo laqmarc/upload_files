@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nuwe - drop zone</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png"/>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                 <h4>Bienvenido a DDrop</h4>
                 <h6>Para subir tus archivos de forma simple a drive, puedes hacer Login a través de Google.</h6>
                 <div class="line"></div>
-                <a href="./php/login.php" class="botoupload">
+                <a href="#" class="botoupload">
                     <span class="onleft"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path

@@ -17,7 +17,7 @@ $google_client->setClientSecret('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');
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/upload-files');
 
-//
+
 $google_client->addScope('email');
 
 $google_client->addScope('profile');

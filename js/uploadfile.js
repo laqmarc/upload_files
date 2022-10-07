@@ -1,4 +1,5 @@
 async function uploadFile() {
+  //formdata
     let formData = new FormData();
     formData.append("file", fileupload.files[0]);
     await fetch('upload.php', {
