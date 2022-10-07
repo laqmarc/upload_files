@@ -3,8 +3,6 @@ First test to hackaton from nuwe.io https://nuwe.io/dev/challenges/hackathon-jor
 
 **Upload_files** és un aplicatiu per afegir arxius via drag and drop o  input type file.
 
-A [NEWE](https://nuwe.io/challenge/repte-4-utilitzar-api) es proposava per al repte l'ús de React, Angular o Vue.js. Jo estic fent l'itinerari de **PHP**, tot i això, tenia ganes d'investigar els meus límits amb Javascript.
-
 ## Us
 O poses tants arxius com vulguis amb el drag and drop. O apretes el botó **subir archivos** i apereixerà el botó de upload
 
