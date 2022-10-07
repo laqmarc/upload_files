@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body {
+    background-color: #130F26;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 0px;
+    padding: 100px 50px 0px;
+    color: #FFFFFF;
+
+}
+
+.left {
+    width: 65vw;
+    position: relative;
+    height: calc(100vh - 100px);
+
+}
+
+
+.prebackground {
+    background: #6AB972;
+    filter: blur(35px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: calc(100% - 50px);
+    height: 70vh;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.dropzone {
+    width: calc(100% - 50px);
+    height: 70vh;
+    color: #fff;
+    line-height: 70vh;
+    text-align: center;
+    font-size: 2.9vw;
+    font-weight: 500;
+    border-radius: 5px;
+    z-index: 5;
+    background-color: #130F26;
+}
+
+.dropzone.hoverfile {
+    color: #569B51;
+
+}
+
+.uploadbutton {
+    width: calc(100% - 50px);
+    background-color: #569B51;
+    height: 39px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    padding-top: 17px;
+    bottom: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+}
+
+
+.right {
+    width: 35vw;
+    height: calc(100vh - 100px);
+    position: relative;
+    max-width: 380px;
+    margin: auto;
+}
+
+.loginzone {
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 100px);
+    transform: translateY(-50%);
+}
+
+h4 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+
+.line {
+    border: 2px solid #39424E;
+    margin-bottom: 40px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+a.botoupload {
+    width: calc(30vw - 85px);
+    border: 1px solid #fff;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    height: 23px;
+    color: #fff;
+    max-width: 330px;
+    border-radius: 5px;
+}
+
+span.onleft {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.upbut{
+    bottom: 124px;
+    padding: 28px;
+    line-height: 0px;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+
+        flex-direction: column-reverse;
+    }
+
+    .right {
+        width: 100%;
+        height: 20vh;
+        margin: auto;
+    }
+
+    a.botoupload {
+        width: 100%;
+    }
+
+    .left {
+        margin: auto;
+        width: 100%;
+        height: 69vh;
+    }
+
+
+    .prebackground {
+
+        width: 100%;
+        height: 50vh;
+
+
+    }
+
+    .dropzone {
+        width: 100%;
+        height: 50vh;
+        line-height: 50vh;
+
+    }
+
+    label.uploadbutton {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    a.botoupload {
+        width: 87%;
+    }
+
+    .upbut {
+
+        width: 100%;
+        top: 46vh !important;
+    }
+
+    .dropzone {
+        height: 35vh;
+        line-height: 35vh;
+    }
+
+    .prebackground {
+        height: 35vh;
+    }
+
+    .right {
+
+        padding: 50px 0px 0px;
+    }
+
+    .uploadbutton {
+        top: 37vh;
+    }
+}
+
+    @media screen and (max-width: 450px) {
+
+        a.botoupload {
+            max-width: 83%;
+        }
+}
