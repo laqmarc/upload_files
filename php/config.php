@@ -9,10 +9,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('915021776079-78lbct69eo5gh0gs0el8f69688c37lp2.apps.googleusercontent.com');
+$google_client->setClientId('#');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('#');
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/upload-files');
